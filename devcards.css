@@ -1,0 +1,24 @@
+.Dev-Cards {
+  margin-top: 8%;
+}
+
+.card {
+  transition: all 0.5s ease;
+}
+
+.card:hover {
+  margin-top: -15px;
+}
+
+.inner {
+  overflow: hidden;
+}
+
+.inner img {
+  transition: all 0.5s ease;
+}
+
+.inner:hover img {
+  transform: scale(0.9);
+  border-radius: 30px;
+}

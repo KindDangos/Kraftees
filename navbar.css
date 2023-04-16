@@ -1,3 +1,65 @@
+.HOME:hover {
+  color: #99d98c;
+  background: #99d98c;
+box-shadow: 0 0 10px #99d98c, 0 0 40px #99d98c, 0 0 80px #99d98c ;
+  letter-spacing: 0.25em;
+  margin-top: -5px;}
+
+.Dev-HOME {
+  margin-top: 8%;
+}
+
+.HOME{
+  transition: all 0.2s ease;
+}
+
+
+.PRODUCT:hover {
+  color: #76c893;
+  background: #76c893;
+  box-shadow: 0 0 10px #76c893, 0 0 40px #76c893, 0 0 80px #76c893 ;
+  letter-spacing: 0.25em;
+  margin-top: -5px;}
+
+.Dev-PRODUCT {
+  margin-top: 8%;
+}
+
+.PRODUCT {
+transition: all 0.2s ease;
+}
+
+.CONTACT:hover {
+  color: #52b69a;
+  background: #52b69a;
+  box-shadow: 0 0 10px #52b69a, 0 0 40px #52b69a, 0 0 80px #52b69a;
+  letter-spacing: 0.25em;
+  margin-top: -5px;}
+
+.Dev-CONTACT {
+  margin-top: 8%;
+}
+
+.CONTACT {
+transition: all 0.2s ease;
+}
+
+.TEAM:hover {
+  color: #34a0a4;
+  background: #34a0a4;
+  box-shadow: 0 0 10px #34a0a4, 0 0 40px #34a0a4, 0 0 80px #34a0a4;
+  letter-spacing: 0.25em;
+  margin-top: -5px;}
+
+.Dev-TEAM {
+  margin-top: 8%;
+}
+
+.TEAM {
+transition: all 0.2s ease;
+}
+
+
 html, body {
   height: 100%;
   width: 100%;
@@ -9,19 +71,6 @@ html, body {
   margin-right: auto;
   width: 20%;
 }
-/*
-.PRODUCTS 
-{
- text-align: center;
-  color: white;
-height: 110%;
-width: 50%;
- margin: auto;
-  border: 2px solid #281F7E;
-  background-color: #281F7E;
-}
-*\
-/* NAVIGATION */
 
 .Navigation_1{
    margin: auto;
