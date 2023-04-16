@@ -1,0 +1,108 @@
+.container
+{
+  animation: transitionIn 5s;
+}
+@keyframes transitionIn 
+{
+  from
+  {
+    opacity: 0;
+    transform: rotateX(-10deg);
+  }
+  to 
+  {
+    opacity: 1;
+    transform: rotateX(0deg);
+  }
+}
+
+.Dev-Cards {
+  margin-top: 8%;
+}
+
+.card {
+  transition: all 0.5s ease;
+}
+
+.card:hover {
+  margin-top: -15px;
+}
+
+.inner {
+  overflow: hidden;
+}
+
+.inner img {
+  transition: all 0.5s ease;
+}
+
+.inner:hover img {
+  transform: scale(0.9);
+  border-radius: 30px;
+}
+
+
+
+.LOGO
+{animation: transitionIn 7s;}
+
+.HOME:hover {
+  color: #99d98c;
+  background: #99d98c;
+box-shadow: 0 0 10px #99d98c, 0 0 40px #99d98c, 0 0 80px #99d98c ;
+  letter-spacing: 0.25em;
+  margin-top: -5px;}
+
+.Dev-HOME {
+  margin-top: 8%;
+}
+
+.HOME{
+  transition: all 0.2s ease;
+}
+
+
+.PRODUCT:hover {
+  color: #76c893;
+  background: #76c893;
+  box-shadow: 0 0 10px #76c893, 0 0 40px #76c893, 0 0 80px #76c893 ;
+  letter-spacing: 0.25em;
+  margin-top: -5px;}
+
+.Dev-PRODUCT {
+  margin-top: 8%;
+}
+
+.PRODUCT {
+transition: all 0.2s ease;
+}
+
+.CONTACT:hover {
+  color: #52b69a;
+  background: #52b69a;
+  box-shadow: 0 0 10px #52b69a, 0 0 40px #52b69a, 0 0 80px #52b69a;
+  letter-spacing: 0.25em;
+  margin-top: -5px;}
+
+.Dev-CONTACT {
+  margin-top: 8%;
+}
+
+.CONTACT {
+transition: all 0.2s ease;
+}
+
+.TEAM:hover {
+  color: #34a0a4;
+  background: #34a0a4;
+  box-shadow: 0 0 10px #34a0a4, 0 0 40px #34a0a4, 0 0 80px #34a0a4;
+  letter-spacing: 0.25em;
+  margin-top: -5px;}
+
+.Dev-TEAM {
+  margin-top: 8%;
+}
+
+.TEAM {
+transition: all 0.2s ease;
+}
